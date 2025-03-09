@@ -67,3 +67,111 @@ Checklist:
 - [ ] Verify that the link is accessible in a private browser window.
 
 If you encounter any difficulties or have questions, please don't hesitate to reach out to our team via our Slack. Our Technical Facilitators and Learning Support staff are here to help you navigate any challenges.
+
+
+Python Visualization
+Bar Chart
+Ontario's Housing Supply
+Source: https://data.ontario.ca/dataset/ontario-s-housing-supply-progress/resource/3bb04ba5-2445-44e0-9d2c-8a25dd1b18e6
+
+![alt text](OntarioHousingBarChart.png)
+
+Written Explanation:
+
+    What software did you use to create your data visualization?
+
+The software used was Python. I used Python because this was the assignment requirement.
+
+
+    Who is your intended audience? 
+
+The general public.
+    
+
+    What information or message are you trying to convey with your visualization? 
+
+The provincial government set housing targets for municipalities in Ontario. This graph shows the progress made by municipalities who were given targets to meet by the province. The y-axis lists the municipalities and the x-axis shows whether each municipality was able to meet their target, fell short of the target, or exceeded the target. Because I chose to focus on two pieces of information ( the municipalities and the housing target status), the visualization is simple and the trend can be observed quickly. The visualization shows that most municipalities have not met their housing target.
+
+    
+    What design principles (substantive, perceptual, aesthetic) did you consider when making your visualization? How did you apply these principles? With what elements of your plots? 
+
+I considered substantive, perceptual, and aesthetic principles when making the visualization. Because this visualization is designed for the general public, my goal was to make it simple and easy to read. I considered using multiple colours but found that the graph looked too busy so I opted to use one colour. The graph is simple enough that advanced knowledge or skill is not required to read and understand it.
+    
+
+    How did you ensure that your data visualizations are reproducible? If the tool you used to make your data visualization is not reproducible, how will this impact your data visualization? 
+
+My code does not include randomization, so I did not set a random seed. However, since I used all the data provided and the titles of the x and y axes are the titles of the columns used to create the visualization, I believe that someone wishing to reproduce the visual can use the same dataset and the code to reproduce the visualization. I also included comments with the code to explain the code.
+    
+
+    How did you ensure that your data visualization is accessible?  
+
+The Visualization module slides advised that a minimum size 12 font should be used in data visualisation. I ensured that the visualization was accessible by using a minimum size of 14. I also uploaded the image to Microsoft Word and used their accessibility tool. The tool said that the image is accessible.
+    
+
+    Who are the individuals and communities who might be impacted by your visualization? 
+Individuals and communities that might be impacted by the visualization are individuals in need of housing, organizations working with people in need of housing, municipal employees, or provincial policy makers. These individuals and communities will be interested in knowing which municipalities are meeting housing targets and which ones are falling short.
+
+    
+    How did you choose which features of your chosen dataset to include or exclude from your visualization? 
+
+I wanted to look at municipalities general trend for meeting housing targets. Therefore I knew that one of the axes had to be "Municipalities". I also wanted to know whether most municipalities were able to meet their housing targets for 2024. I therefore chose the "Housing Target Status" for the second axes. I did not include data from the other columns because I was interested in seeing at a glance whether the targets were met or not and so used data relevant to my intention.
+
+    What ‘underwater labour’ contributed to your final data visualization product?
+    
+Provincial bureaucrats who demanded the study, municipal employees who collected the data, data scientists who created the dataset, administrators who manage information, webmaster who put the dataset on the web, DSI staff.
+
+
+
+
+Excel Visualization
+Pareto Chart
+Ontario's Housing Supply
+Source: https://data.ontario.ca/dataset/ontario-s-housing-supply-progress/resource/3bb04ba5-2445-44e0-9d2c-8a25dd1b18e6
+
+![alt text](image.png)
+
+Written Explanation:
+
+    
+    What software did you use to create your data visualization?
+
+The software used was Microsoft Excel. I used Excel because it produces functional and useful graphs.
+
+
+    Who is your intended audience? 
+
+The general public.
+    
+
+    What information or message are you trying to convey with your visualization? 
+
+The provincial government set housing targets for municipalities in Ontario. This graph shows the progress made by municipalities who were given targets to meet by the province. The x-axis lists the municipalities and the y-axis shows the level of success each municipality has obtained in achieving their housing target. Because I chose to focus on two pieces of information ( the municipalities and the housing target progress), the visualization is simple and the progress can be observed quickly. The visualization shows that although a few municipalities have surpassed their housing targets, the vast majority of munucipalities are below their housing target.
+
+    
+    What design principles (substantive, perceptual, aesthetic) did you consider when making your visualization? How did you apply these principles? With what elements of your plots? 
+
+I considered substantive, perceptual, and aesthetic principles when making the visualization. Because this visualization is designed for the general public, my goal was to make it simple and easy to read. The graph is simple enough that advanced knowledge or skill is not required to read and understand it.
+    
+
+    How did you ensure that your data visualizations are reproducible? If the tool you used to make your data visualization is not reproducible, how will this impact your data visualization? 
+
+It may be hard to reproduce the visualization without the original excel file but since I did not remove any data and I used the datset column headings as the titles for the x and y axes anyone wanting to reproduce the visualization can download the dataset into excel and create a pareto chart using the same columns. 
+    
+
+    How did you ensure that your data visualization is accessible?  
+
+The Visualization module slides advised that a minimum size 12 font should be used in data visualisation. I ensured that the visualization was accessible by using a minimum size of 12 throughout. I also uploaded the image to Microsoft Word and used their accessibility tool. The tool said that the image is accessible.
+    
+
+    Who are the individuals and communities who might be impacted by your visualization? 
+
+Individuals and communities that might be impacted by the visualization are individuals in need of housing, organizations working with people in need of housing, municipal employees, or provincial policy makers. These individuals and communities will be interested in knowing what progress municipalities have made towards reaching their housing targets.
+
+    
+    How did you choose which features of your chosen dataset to include or exclude from your visualization? 
+
+I wanted to look at the progress made by municipalites towards meeting their housing targets. I also wanted to know whether most municipalities were able to meet their housing targets for 2024. I therefore chose "Municipalities" for the first axis and the "Progress % for 2024" for the second axis. I excluded data from the other columns because I wanted to keep it simple and focus on just this information.
+
+
+    What ‘underwater labour’ contributed to your final data visualization product?
+Provincial bureaucrats who demanded the study, municipal employees who collected the data, data scientists who created the dataset, administrators who manage information, webmaster who put the dataset on the web, DSI staff.
